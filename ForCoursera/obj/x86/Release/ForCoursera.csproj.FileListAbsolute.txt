@@ -1,0 +1,7 @@
+C:\Users\Sergey\AppData\Local\Temporary Projects\ForCoursera\bin\Release\ForCoursera.exe
+C:\Users\Sergey\AppData\Local\Temporary Projects\ForCoursera\bin\Release\ForCoursera.pdb
+C:\Users\Sergey\AppData\Local\Temporary Projects\ForCoursera\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Sergey\AppData\Local\Temporary Projects\ForCoursera\obj\x86\Release\ForCoursera.exe
+C:\Users\Sergey\AppData\Local\Temporary Projects\ForCoursera\obj\x86\Release\ForCoursera.pdb
+C:\Users\Sergey\Documents\GitHub\ForCoursera\ForCoursera\obj\x86\Release\ForCoursera.exe
+C:\Users\Sergey\Documents\GitHub\ForCoursera\ForCoursera\obj\x86\Release\ForCoursera.pdb
