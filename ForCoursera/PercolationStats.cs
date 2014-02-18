@@ -32,7 +32,7 @@ namespace ForCoursera
                     p.open(row, column);
                     count++;
                 }
-                results[i] = count;
+                results[i] = (double)count / (N * N);
             }
         }
 
@@ -67,13 +67,13 @@ namespace ForCoursera
             return mean() + 1.96 * stddev() / Math.Sqrt(results.Length);
         }
 
-        public static void main(String[] args)   // test client, described below
+       /* public static void main(String[] args)   // test client, described below
         {
             if ((Convert.ToInt32(args[0]) <= 0)||(Convert.ToInt32(args[1]) <= 0)) throw new Exception("AZAZA");
             PercolationStats ps = new PercolationStats(Convert.ToInt32(args[0]), Convert.ToInt32(args[1]));
             Console.WriteLine("mean \t= {0}", ps.mean());
             Console.WriteLine("stddev \t= {0}", ps.stddev());
             Console.WriteLine("95% confidence interval \t= {0}, {1}", ps.confidenceLo(), ps.confidenceHi());
-        }
+        }*/
     }
 }

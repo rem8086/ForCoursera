@@ -13,7 +13,7 @@ namespace ForCoursera
    
         public Percolation(int N)              // create N-by-N grid, with all sites blocked
         {
-		    cellArray = new Cell[N^2 + 2];
+		    cellArray = new Cell[(int)Math.Pow(N,2) + 2];
             cellsCount = N;
 		    for (int i = 0; i < cellArray.Length; i++)
             {
